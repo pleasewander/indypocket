@@ -1,0 +1,96 @@
+@charset "utf-8";
+
+html, body {
+	height: 100%;
+  	margin: 0;
+  	background-color: #ffffff;
+}	
+
+
+/**Top Bar Style**/
+#top_container {
+	height: 125px;
+	width: 100%;
+	position: fixed;
+	top: 0px;
+	}
+	/**height 115 w/ bottom padding 10px**/
+#top_bar {
+	background-color: #FFF;
+	height: 115px;
+	width: 960px;
+	margin-bottom: 0px;
+	margin-right: auto;
+	margin-left: auto;
+	padding-top: 10px;
+	border-bottom-width: 1px;
+	border-bottom-style: solid;
+	background-image: url(../images/top_bar_stitch.gif);
+	background-repeat: repeat-x;
+}
+#logo_image {
+	float: left;
+	height: 115px;
+	width: 115px;
+}
+#searchbar {
+	float: right;
+	height: 25px;
+	width: 125px;
+}
+
+/**Container Style**/
+#container {
+	height: 100%;
+	width: 960px;
+	margin-top: 0px;
+	margin-right: auto;
+	margin-left: auto;
+}
+#left_feed {
+	margin-top: 125px;
+	float: left;
+	height: 100%;
+	width: 150px;
+	position: fixed;
+	top: 0px;
+	botton: 0px;
+}
+	/**Main Feed**/
+#right_feed {
+	margin-top: 125px;
+	float: right;
+	height: 100%;
+	width: 797px;
+	margin-right: 10px;
+	border-right-width: 1px;
+	border-left-width: 1px;
+	border-right-style: solid;
+	border-left-style: solid;
+}
+
+/**Navigation**/
+#nav_container {
+	margin: 0 auto;
+	height: 50px;
+	clear: both;
+	width: 100%;
+	position: fixed;
+	bottom: 0px;
+	background-color: #FFF;
+}
+/**50px nav w/ 20px padding**/
+#nav_content {
+	height: 30px;
+	width: 960px;
+	border-width: 1px;
+	border-style: solid;
+	background-color: #FFF;
+	background-image: url(../images/nav_image.gif);
+	background-repeat: no-repeat;
+	margin-top: 0;
+	margin-right: auto;
+	margin-bottom: 0;
+	margin-left: auto;
+	padding-top: 20px;
+}
